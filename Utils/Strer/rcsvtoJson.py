@@ -3,7 +3,7 @@ import csv
 
 #读取原始数据
 data = []
-with open("output_csv.csv",encoding="utf-8") as file:
+with open("utils/strer/output/output_csv.csv",encoding="utf-8") as file:
     reader = csv.DictReader(file)
     for row in reader:
         print(len(row))
@@ -14,5 +14,5 @@ with open("output_csv.csv",encoding="utf-8") as file:
 
 
 #写入json
-with open('new_output_json.json','w',encoding="utf-8" ) as file:
+with open('utils/strer/output/new_output_json.json','w',encoding="utf-8" ) as file:
     json.dump(data,file,ensure_ascii=False)   
