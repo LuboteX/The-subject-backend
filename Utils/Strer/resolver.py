@@ -19,15 +19,18 @@ doclist = list(filter(None,doclist))
 #字段配置
 config = configparser.ConfigParser()
 config.read(config_address,encoding="utf-8")
-fields = config.sections()
+fields = config.sections() #instrution
 orderfieldDict = {}
+namefieldDict={}
 for index in range(len(fields)):
-    orderfieldDict[fields[index]] = index
+    orderfieldDict[config.get(fields[index],'name')] = index # 小红...1  
+    namefieldDict[config.get(fields[index],'name')] = fields[index]
 
 #空内容字段字典
 nullelem={}
 for field in fields:
     nullelem[field] = ''
+    # nullelem[config.get(field,'name')]=''
 
 #最终数据
 data=[]
@@ -36,7 +39,8 @@ data=[]
 elem=dict(nullelem)
 for index in range(len(doclist)):
     if index%2 == 0:
-        elem[doclist[index]]=doclist[index+1]
+        # elem[doclist[index]]=doclist[index+1]
+        elem[namefieldDict[doclist[index]]] = doclist[index+1]
     #method1 按升序分割
     # if(index>=len(doclist)-2):
     #     data.append(elem)
