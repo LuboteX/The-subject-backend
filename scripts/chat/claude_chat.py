@@ -17,7 +17,8 @@ import configparser
 import json
 import sys
 import re
-sys.path.append("../")
+mypath = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(mypath)
 from utils.strer2 import encoder
 
 config = configparser.ConfigParser()
