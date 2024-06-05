@@ -10,9 +10,10 @@ def encoder(input_file_path,file_template_path,output_file_path):
     output_data = []
 
     for item in input_data:
-        for personality_key in template_data['input']['personality']:
-            if personality_key in input_data[item]:
-                template_data['input']['personality'][personality_key] = input_data[item][personality_key]
+        if 'personality' in template_data['input']:
+            for personality_key in template_data['input']['personality']:
+                if personality_key in input_data[item]:
+                    template_data['input']['personality'][personality_key] = input_data[item][personality_key]
         for input_key in template_data['input']:
             if input_key in input_data[item]:
                 template_data['input'][input_key] = input_data[item][input_key]

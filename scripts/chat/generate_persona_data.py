@@ -36,12 +36,12 @@ memory_length = config['DEFAULT']['memory_length']
 chat_model = config['DEFAULT']['chat_model']
 
 def save_data(content, data_type):
-    base_path = './document/training_data/raw_data/'
-    base_filename = f'raw_data_{data_type}_'
-    encode_filename = f'encode_data_{data_type}_'
+    base_path = './document/training_data/prompts_raw_data/'
+    base_filename = f'prompts_raw_data_{data_type}_'
+    encode_filename = f'prompts_encode_data_{data_type}_'
     file_extension = '.json'
-    file_template_path = "document/training_data/template.json"
-    output_base_path = "utils/strer2/output/"
+    file_template_path = "document/training_data/prompts_template.json"
+    output_base_path = "./document/training_data/prompts_encoded_data/"
     
     # 获取现有文件列表并找出最大的编号
     existing_files = [f for f in os.listdir(base_path) if f.startswith(base_filename) and f.endswith(file_extension)]
