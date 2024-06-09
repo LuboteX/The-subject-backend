@@ -1,0 +1,87 @@
+[
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Mike: Sarah, I'm really glad we're doing this road trip together.",
+                "Sarah: Me too, Mike. It's gonna be so much fun!",
+                "Mike: (Mike nervously glances at Sarah) Yeah, fun...",
+                "Sarah: Is everything okay, Mike? You seem a bit tense.",
+                "Mike: (Mike hesitates) Actually, Sarah, there's something I've been wanting to tell you for a long time...",
+                "Sarah: (Sarah looks at Mike curiously) What is it?",
+                "Mike: (Mike takes a deep breath) I... I really like you, Sarah. More than just a friend.",
+                "Sarah: (Sarah's eyes widen in surprise) Oh, Mike... I never knew...",
+                "Mike: (Mike looks down, feeling embarrassed) Yeah, I've been too afraid to say anything.",
+                "Sarah: (Sarah reaches out and touches Mike's hand) I feel the same way, Mike. I've always had feelings for you too.",
+                "Mike: (Mike's face lights up with joy) Really? This is amazing!",
+                "Sarah: (Sarah smiles) Yeah, it is. I guess we've both been too scared to admit it.",
+                "Mike: (Mike chuckles) Yeah, but now that we know, maybe we can see where this road trip takes us.",
+                "Sarah: (Sarah nods) I'd like that, Mike. I'd really like that.",
+                "Mike: (Mike smiles) Me too, Sarah. Me too."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Mike and Sarah have been best friends since childhood",
+                "Both Mike and Sarah harbor secret feelings for each other",
+                "They confess their feelings for each other during a road trip",
+                "Mike admits he's been too afraid to tell Sarah how he feels",
+                "Sarah reciprocates Mike's feelings",
+                "They both express excitement about exploring a romantic relationship"
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Alex: Maya, I need your help. I've uncovered something big.",
+                "Maya: What is it, Alex? You sound serious.",
+                "Alex: It's about the government. They're hiding something from the public, something dangerous.",
+                "Maya: (Maya furrows her brow) What kind of conspiracy are we talking about?",
+                "Alex: (Alex leans in closer) I've found evidence of illegal experiments on civilians, mind control technology.",
+                "Maya: (Maya's eyes widen in shock) That's... That's horrifying.",
+                "Alex: We need to expose them, Maya. But I can't do it alone. I need your skills.",
+                "Maya: (Maya nods) Alright, Alex. I'm in. We'll bring them down together.",
+                "Alex: (Alex smiles gratefully) Thank you, Maya. I knew I could count on you.",
+                "Maya: (Maya gives Alex a determined look) Let's get to work. We have a lot to uncover."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Alex, a skilled hacker, discovers evidence of a government conspiracy",
+                "He seeks help from Maya, an undercover agent",
+                "They uncover illegal experiments and mind control technology",
+                "Together, they decide to expose the truth and bring down the government",
+                "Alex expresses gratitude to Maya for her help",
+                "They prepare to work together to uncover more evidence"
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Edward: Lily, my love for you knows no bounds. I cannot live without you.",
+                "Lily: But Edward, we come from different worlds. How can we ever be together?",
+                "Edward: (Edward takes Lily's hand) I will defy convention, defy my family if I have to. I want to be with you, Lily.",
+                "Lily: (Lily's eyes well up with tears) Oh, Edward... I want to be with you too, but...",
+                "Edward: (Edward wipes away Lily's tears) Shh... Don't worry about the obstacles. We'll overcome them together.",
+                "Lily: (Lily nods, feeling a surge of hope) Yes, together.",
+                "Edward: (Edward smiles) I love you, Lily. And I will fight for our love, no matter what it takes.",
+                "Lily: (Lily's heart swells with emotion) I love you too, Edward. And I will stand by your side, always.",
+                "Edward: (Edward embraces Lily) Then let us face the world together, my dear Lily, and show them that love knows no bounds."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Prince Edward falls in love with Lily, a commoner",
+                "Their love is forbidden by society due to their different social statuses",
+                "They decide to defy convention and be together despite the obstacles",
+                "Edward expresses his willingness to fight for their love",
+                "Lily pledges her unwavering support to Edward",
+                "They vow to face the challenges together and prove that love conquers all"
+            ]
+        }
+    }
+]

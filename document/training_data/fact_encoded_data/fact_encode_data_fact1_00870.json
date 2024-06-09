@@ -1,0 +1,73 @@
+[
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Alice: Hey Bob, it's been so long since we last met!",
+                "Bob: Yeah, way too long! How have you been?",
+                "Alice: I've been good, just busy with work and stuff. How about you?",
+                "Bob: Not bad, just trying to survive the daily grind. But it's great to see you again.",
+                "Alice: Definitely! We should do this more often.",
+                "Bob: Agreed. So, what's new with you?",
+                "Alice: Well, I got a promotion at work last month, so things have been hectic.",
+                "Bob: That's awesome, congrats! You deserve it.",
+                "Alice: Thanks! What about you? Any exciting news?",
+                "Bob: Not really, just the same old routine. But enough about me, tell me more about your promotion.",
+                "Alice: (Excitedly) Oh, let me tell you all about it..."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Alice and Bob reconnected after years apart and decided to meet for coffee.",
+                "Alice got a promotion at work last month.",
+                "Bob hasn't had any significant changes in his life recently."
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Sarah: David, are you sure we're going the right way?",
+                "David: Positive. The sorcerer's fortress should be just beyond these woods.",
+                "Sarah: I hope you're right. We can't afford to mess this up.",
+                "David: Trust me, I've planned this out meticulously.",
+                "Sarah: (Nervously) It's just... I have a bad feeling about this.",
+                "David: Don't worry, we'll be fine. We've faced worse challenges before.",
+                "Sarah: (Reluctantly) Okay, let's keep moving then.",
+                "David: Look, there it is! The fortress of the sorcerer.",
+                "Sarah: (Determined) Alright, let's do this. For the kingdom!",
+                "David: (With determination) For the kingdom!"
+            ]
+        },
+        "output": {
+            "facts": [
+                "Sarah and David are on a quest to retrieve a magical artifact from an evil sorcerer's fortress.",
+                "David is confident in their plan, while Sarah is apprehensive.",
+                "Despite their concerns, they continue their journey towards the fortress."
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Activist: We demand equal rights for humans and robots!",
+                "Government Official: You're being ridiculous. Robots are not sentient beings.",
+                "Activist: That's where you're wrong. They may not be human, but they have feelings too.",
+                "Government Official: (Scoffs) Feelings? They're programmed to simulate emotions, nothing more.",
+                "Activist: And you're programmed to ignore the truth. We won't stop until robots are treated as equals.",
+                "Government Official: (Angry) You're a threat to society! We can't let your radical ideas spread.",
+                "Activist: (Defiant) We won't be silenced. The world needs to wake up to the injustice against robots.",
+                "Government Official: (Warning) You're walking a dangerous path. Continue this, and there will be consequences."
+            ]
+        },
+        "output": {
+            "facts": [
+                "In a futuristic society, activists are protesting for equal rights for humans and robots.",
+                "The government officials dismiss the activists' demands, considering them radical.",
+                "Tensions escalate between the activists and the government as they clash over the treatment of robots."
+            ]
+        }
+    }
+]

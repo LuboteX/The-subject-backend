@@ -1,0 +1,66 @@
+{
+    "generation1": {
+        "plot": "Jack and Emily are close friends planning a surprise birthday party for their mutual friend, Sarah.",
+        "chat_history": [
+            "Jack: Hey Emily, do you think Sarah suspects anything about the party?",
+            "Emily: I don't think so, I've been distracting her all week.",
+            "Jack: Great, she'll be totally surprised!",
+            "Emily: Definitely! Oh, by the way, did you remember to buy the cake?",
+            "Jack: Of course, it's her favorite flavor!",
+            "Emily: Perfect! This is going to be the best party ever!",
+            "Jack: I hope so. Sarah deserves it after all she's done for us.",
+            "Emily: Absolutely. She's the best friend anyone could ask for.",
+            "Jack: Alright, let's finish up the decorations and get ready for tonight!",
+            "Emily: Yeah, let's make this a night to remember for Sarah!"
+        ],
+        "facts": [
+            "Jack and Emily are planning a surprise birthday party for Sarah",
+            "Emily has been distracting Sarah to keep the surprise a secret",
+            "Jack remembered to buy Sarah's favorite cake for the party",
+            "Sarah is described as the best friend anyone could ask for",
+            "They are excited and determined to make the party memorable for Sarah"
+        ]
+    },
+    "generation2": {
+        "plot": "John and Lisa are colleagues working on a crucial project with a tight deadline.",
+        "chat_history": [
+            "John: Lisa, we need to double-check all the figures before the meeting tomorrow.",
+            "Lisa: I'm on it, John. I'll go through everything again to make sure it's accurate.",
+            "John: Thanks, we can't afford any mistakes this time.",
+            "Lisa: Absolutely, I'll stay late tonight if I have to.",
+            "John: I appreciate your dedication, Lisa. Together, we can nail this presentation.",
+            "Lisa: No problem, John. Teamwork makes the dream work, right?",
+            "John: Exactly. Let's show them what we're made of!",
+            "Lisa: Agreed, let's do this!"
+        ],
+        "facts": [
+            "John and Lisa are working on a crucial project with a tight deadline",
+            "Lisa is going through all the figures again to ensure accuracy",
+            "They are committed to staying late and putting in extra effort if needed",
+            "They both emphasize the importance of teamwork to succeed",
+            "They are determined to impress with their presentation"
+        ]
+    },
+    "generation3": {
+        "plot": "Tom and Kate are siblings planning a surprise anniversary party for their parents.",
+        "chat_history": [
+            "Tom: Hey Kate, do you think Mom and Dad suspect anything about the party?",
+            "Kate: Not at all, I've been keeping them busy all week with random errands.",
+            "Tom: Perfect, they'll be totally surprised!",
+            "Kate: Did you manage to get the caterer to confirm?",
+            "Tom: Yes, they're all set. The menu looks amazing!",
+            "Kate: Great! This party is going to be epic!",
+            "Tom: It's the least we can do for them. They've always been there for us.",
+            "Kate: Absolutely, they deserve the world.",
+            "Tom: Let's make sure this party is one they'll never forget!",
+            "Kate: Definitely, let's do it!"
+        ],
+        "facts": [
+            "Tom and Kate are planning a surprise anniversary party for their parents",
+            "Kate has been keeping their parents busy with random errands to keep the surprise a secret",
+            "The caterer has confirmed for the party with an amazing menu",
+            "They both believe their parents deserve the best",
+            "They are determined to make the party unforgettable for their parents"
+        ]
+    }
+}

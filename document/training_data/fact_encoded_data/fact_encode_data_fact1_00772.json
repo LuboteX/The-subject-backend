@@ -1,0 +1,97 @@
+[
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Tom: Lily, I've been meaning to talk to you about something.",
+                "Lily: What's up, Tom? You seem serious.",
+                "Tom: Yeah, it's about us. I don't know how to say this, but... I have feelings for you, Lily. More than just friendship.",
+                "Lily: (Surprised) Oh... Tom, I... I didn't expect this. I value our friendship so much.",
+                "Tom: I know, and I don't want to jeopardize that. But I can't ignore how I feel anymore.",
+                "Lily: (Emotionally conflicted) This is a lot to take in, Tom. I'm leaving for London next month, you know that.",
+                "Tom: I do, and that's what makes this even harder. But I can't let you go without telling you how I feel.",
+                "Lily: (Tearfully) Tom, I don't know what to say. This is all so sudden, and... complicated.",
+                "Tom: (Regretful) I shouldn't have said anything. I value our friendship too much to make things awkward.",
+                "Lily: (Hesitantly) No, Tom, it's not that. It's just... I need some time to process all of this.",
+                "Tom: (Resigned) Take all the time you need, Lily. I'll be here for you no matter what.",
+                "Lily: (Gratefully) Thanks, Tom. I appreciate your honesty and understanding.",
+                "Tom: (Smiling sadly) Always."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Tom confesses his romantic feelings for Lily, risking their friendship.",
+                "Lily is conflicted as she is about to move to another country.",
+                "Tom values their friendship and regrets making things awkward.",
+                "Lily appreciates Tom's honesty and needs time to process her feelings."
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Sarah: (Scanning the horizon) We need to find shelter before nightfall.",
+                "John: (Checking his ammo) Agreed. Let's keep moving.",
+                "Sarah: (Spotting movement in the distance) Hold on, I think I see something.",
+                "John: (Alert) What is it?",
+                "Sarah: (Nervously) I'm not sure... could be raiders.",
+                "John: (Grimly) Either way, we don't have a choice. We need supplies.",
+                "Sarah: (Cautiously approaching) Stay behind me.",
+                "Raiders: (Emerging from the shadows) Well, well, what do we have here?",
+                "Sarah: (Tense) We're just passing through. We don't want any trouble.",
+                "Raiders: (Laughing) Trouble? You're in the wrong neighborhood for that, sweetheart.",
+                "John: (Stepping forward) Back off. We're armed.",
+                "Raiders: (Mocking) Oh, I'm scared! What are you gonna do, shoot us?",
+                "Sarah: (Gripping her weapon) We'll do what we have to. Don't push us.",
+                "John: (Voice low) We're outnumbered, Sarah. We need to find another way around.",
+                "Sarah: (Reluctantly) Fine. But mark my words, we'll remember this.",
+                "Raiders: (Taunting) Run along now, before we change our minds.",
+                "Sarah: (Leading John away) Let's go, John. We'll find another route."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Sarah and John encounter raiders while searching for supplies.",
+                "They avoid a confrontation to protect themselves.",
+                "Despite the setback, they remain determined to find safety.",
+                "The journey continues as they navigate through the dangerous wasteland."
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Smith: (Reviewing case files) Another disappearance, same pattern.",
+                "Assistant: (Entering the office) Any leads, Detective?",
+                "Smith: (Rubbing his temples) Not yet. But I'm starting to see a pattern here.",
+                "Assistant: (Concerned) You think it's the same group responsible?",
+                "Smith: (Nodding grimly) It's the only explanation that makes sense.",
+                "Assistant: (Handing over a folder) We got some new intel on the cult's whereabouts.",
+                "Smith: (Examining the documents) Good work. Let's pay them a visit.",
+                "Cult Leader: (Greeting them) Ah, Detective Smith. To what do we owe this pleasure?",
+                "Smith: (Sternly) Cut the act. We know what you're up to.",
+                "Cult Leader: (Smirking) Do you now? How intriguing.",
+                "Smith: (Demanding) Where are the missing people? What have you done with them?",
+                "Cult Leader: (Mocking) Oh, Detective, you have no idea what you've stumbled upon.",
+                "Smith: (Drawing his gun) Enough games. You're under arrest.",
+                "Cult Members: (Emerging from the shadows) I wouldn't be so sure about that, Detective.",
+                "Smith: (Backing away) Backup! Now!",
+                "Cult Leader: (Laughing) Too late, Detective. You're outnumbered.",
+                "Smith: (Calling for backup) This is Detective Smith, requesting immediate backup at my location.",
+                "Backup: (Responding) Roger that, Smith. Hang tight, we're on our way.",
+                "Smith: (Facing the cult) You won't get away with this.",
+                "Cult Leader: (Smiling sinisterly) Oh, but we already have. The city belongs to us now."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Detective Smith investigates a series of disappearances linked to a cult.",
+                "He confronts the cult leader but is outnumbered by cult members.",
+                "Smith calls for backup as the situation escalates.",
+                "The cult claims control over the city, leaving Smith in a precarious position."
+            ]
+        }
+    }
+]

@@ -1,0 +1,138 @@
+[
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "John: It's over, Alex. You have nowhere to run.",
+                "Alex: Oh, John, always so dramatic. Do you really think you can catch me?",
+                "John: This ends tonight. I've been chasing you for too long.",
+                "Alex: (smirking) And yet, here we are. You with your badge, and me with my freedom.",
+                "John: Freedom? You're surrounded by cops. Give up while you still can.",
+                "Alex: (laughs) You think those idiots out there can stop me? You're the only one who's ever come close.",
+                "John: Don't make this harder than it has to be. Surrender.",
+                "Alex: Surrender? That's not in my vocabulary, detective.",
+                "John: (takes a step forward) You leave me no choice.",
+                "Alex: (pulls out a gun) Ah, ah, ah. Not so fast. Let's not do anything hasty.",
+                "John: (calmly) Put the gun down, Alex. This isn't the way.",
+                "Alex: (aims at John) It's the only way. I won't go to prison.",
+                "John: (slowly reaching for his own weapon) Don't do this. We can find another way.",
+                "Alex: (grinning) Always the negotiator. But you know as well as I do, there's no other way.",
+                "John: (narrowing his eyes) I'm not letting you escape again.",
+                "Alex: Then I guess this is it. One last showdown.",
+                "John: (firmly) It doesn't have to be.",
+                "Alex: (hesitates) Maybe in another life, John. Maybe.",
+                "John: (draws his gun) Drop it, Alex. Now.",
+                "Alex: (raises his gun) Goodbye, John.",
+                "John: (fires a shot) No, Alex!",
+                "Alex: (falls to the ground) Ahh...",
+                "John: (kneels beside him) Why, Alex? Why did it have to be this way?",
+                "Alex: (coughing) It... was always... going to end... like this...",
+                "John: (shaking his head) Damn it...",
+                "Alex: (smiling weakly) You were... always a good... detective...",
+                "John: (tears in his eyes) And you were always... a worthy adversary.",
+                "Alex: (breathing his last) See you... in the next... life...",
+                "John: (stands up, looking down at Alex's body) Rest in peace, old friend.",
+                "Officer: (entering the warehouse) Detective, are you alright?",
+                "John: (nodding) It's over. It's finally over.",
+                "Officer: (looks at Alex) What happened?",
+                "John: (sighs) He chose his path. I couldn't save him."
+            ]
+        },
+        "output": {
+            "facts": [
+                "John is a detective who has been chasing Alex for years.",
+                "John corners Alex in an abandoned warehouse.",
+                "A tense confrontation takes place between John and Alex.",
+                "Alex refuses to surrender and pulls out a gun.",
+                "John tries to negotiate but is forced to shoot Alex.",
+                "Alex dies in the confrontation, telling John they might meet in another life.",
+                "John feels sorrow for his old adversary's death."
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Sara: I can't believe I've been living a lie my whole life.",
+                "Leader: It's hard to accept, but now you know the truth. Will you help us fight?",
+                "Sara: (determined) Yes. I want to do whatever it takes to bring them down.",
+                "Leader: Good. We need more people like you. Brave and determined.",
+                "Sara: What do I need to do?",
+                "Leader: First, you need to learn how to defend yourself. Can you handle a weapon?",
+                "Sara: I've never used one before, but I'm a quick learner.",
+                "Leader: (handing her a gun) This is your new best friend. Take good care of it.",
+                "Sara: (nodding) I will. What's the plan?",
+                "Leader: We have a mission tonight. A small one, to test your skills.",
+                "Sara: What kind of mission?",
+                "Leader: We're going to sabotage one of their surveillance drones. It won't be easy.",
+                "Sara: (nervously) I'm ready. Just tell me what to do.",
+                "Leader: Stay close to me and follow my lead. No heroics.",
+                "Sara: Got it.",
+                "Leader: Let's move out. The rendezvous point is two blocks away.",
+                "Sara: (following) What if we get caught?",
+                "Leader: We won't. Trust me.",
+                "Sara: (whispering) There it is. The drone.",
+                "Leader: (signaling) Keep low and stay quiet. I'll disable its sensors.",
+                "Sara: (watching intently) You're amazing at this.",
+                "Leader: (smiling) Years of practice. Now, hand me that EMP device.",
+                "Sara: (handing over the device) Here.",
+                "Leader: (attaching the device) This will fry its circuits. In 3... 2... 1...",
+                "Sara: (hearing a zap) Did it work?",
+                "Leader: (nodding) Yes. It's offline. Good job, Sara.",
+                "Sara: (relieved) We did it!",
+                "Leader: This is just the beginning. There's much more to come.",
+                "Sara: I'm ready. Let's bring them down.",
+                "Leader: With your help, we just might."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Sara lives in a dystopian future controlled by technology.",
+                "She discovers and joins a resistance group.",
+                "The group plans to overthrow the oppressive regime.",
+                "Sara learns to use a weapon and prepares for a mission.",
+                "They sabotage a surveillance drone successfully.",
+                "The leader praises Sara's determination and skill.",
+                "Sara commits to fighting alongside the resistance."
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Emily: Look at this, David. It's incredible!",
+                "David: (worried) Emily, do you know what this is?",
+                "Emily: Of course! It's the Lost Amulet of Zandor.",
+                "David: (seriously) It's cursed, Emily. Everyone who has touched it has met a terrible fate.",
+                "Emily: (dismissive) That's just a myth. We can't let superstition stop us from studying it.",
+                "David: (insistent) It's not just a myth. I've read the accounts. People have died.",
+                "Emily: (determined) I'm an archaeologist. I deal with facts, not fairy tales.",
+                "David: (sighs) Just promise me you'll be careful.",
+                "Emily: I always am. Now, let's get this back to the lab.",
+                "David: (helping her pack the artifact) I hope you know what you're doing.",
+                "Emily: Trust me, David. This is a major discovery.",
+                "David: (nodding) I know. But at what cost?",
+                "Emily: (confident) We need to push boundaries to make progress.",
+                "David: (worried) Just don't push too far.",
+                "Emily: (smiling) I'll be fine. Now, help me with these notes.",
+                "David: (glancing at the amulet) That thing gives me the creeps.",
+                "Emily: (laughing) You worry too much.",
+                "David: (seriously) And you don't worry enough.",
+                "Emily: (packing up) Let's get this to the lab and start the analysis.",
+                "David: (reluctantly) Okay. But I'm staying close. Just in case.",
+                "Emily: (smirking) Suit yourself."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Emily is an archaeologist who discovers a cursed artifact.",
+                "Her colleague, David, warns her about the curse.",
+                "Emily dismisses the warnings as superstition and insists on studying the artifact.",
+                "David reluctantly agrees to help but remains cautious.",
+                "Emily is confident in her scientific approach and eager to analyze the artifact."
+            ]
+        }
+    }
+]

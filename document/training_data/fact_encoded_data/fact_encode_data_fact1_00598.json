@@ -1,0 +1,81 @@
+[
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Amy: Hey, Ben. Can we talk?",
+                "Ben: Sure, what's up?",
+                "Amy: I feel like we've been drifting apart lately. With our schedules, it's been tough.",
+                "Ben: Yeah, I know. I miss you, though. It's just work's been crazy.",
+                "Amy: I miss you too. But I feel like we're not making enough effort to connect.",
+                "Ben: I agree. Maybe we could plan something special, like a weekend getaway?",
+                "Amy: That sounds nice. I'd love to spend some quality time together.",
+                "Ben: Me too. Let's make it happen.",
+                "Amy: I'm glad we're on the same page. I really want us to work through this.",
+                "Ben: Me too, Amy. I love you.",
+                "Amy: I love you too, Ben."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Amy and Ben acknowledge the strain in their long-distance relationship due to busy schedules",
+                "They agree to make more effort to connect and plan a weekend getaway",
+                "Both express their commitment to working through their challenges and reaffirm their love for each other"
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Tom: Emily, there's something I need to tell you.",
+                "Emily: What is it, Tom?",
+                "Tom: I've had feelings for you for a while now, and I can't keep it to myself anymore.",
+                "Emily: Oh... I didn't know. That's sweet of you, Tom.",
+                "Tom: So, um, would you maybe want to go out with me sometime?",
+                "Emily: Sure, why not? It could be fun.",
+                "Tom: Really? That's great! I mean, cool, yeah, cool.",
+                "Emily: Haha, you're cute when you're nervous.",
+                "Tom: Thanks... I think.",
+                "Emily: Let's grab coffee this Saturday, okay?",
+                "Tom: Sounds perfect. I'll see you then, Emily.",
+                "Emily: Looking forward to it, Tom."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Tom finally confesses his feelings to Emily and asks her out",
+                "Emily agrees to go on a date with Tom, showing interest in getting to know him better",
+                "Both express excitement and anticipation for their upcoming coffee date"
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Mia: Are you following me?",
+                "Jack: No, I just happened to be going in the same direction.",
+                "Mia: Right, and what are the odds of that?",
+                "Jack: Look, I don't want any trouble. Let's just go our separate ways.",
+                "Mia: Fine by me. But watch your back out here.",
+                "Jack: Same to you. It's not safe for anyone, especially alone.",
+                "(They walk in silence for a while, wary of their surroundings)",
+                "Mia: So, where are you headed?",
+                "Jack: Nowhere in particular. Just trying to survive.",
+                "Mia: Me too. Maybe we should stick together, for safety.",
+                "Jack: Are you serious? We're from rival factions.",
+                "Mia: Desperate times call for desperate measures. What do you say?",
+                "Jack: Alright, but only until we find somewhere safe.",
+                "Mia: Agreed. Let's keep moving."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Mia and Jack, survivors in a post-apocalyptic world, meet and initially distrust each other",
+                "They reluctantly decide to team up for safety despite being from rival factions",
+                "Both acknowledge the dangers of traveling alone and agree to stick together temporarily"
+            ]
+        }
+    }
+]

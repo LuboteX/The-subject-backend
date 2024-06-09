@@ -1,0 +1,154 @@
+[
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "John: Michael, we need to talk about those disappearances.",
+                "Michael: I don't know anything about that, detective.",
+                "John: An anonymous source mentioned your name. Care to explain?",
+                "Michael: Someone's trying to set me up. I have nothing to do with it.",
+                "John: Where were you on the night of June 15th?",
+                "Michael: I was at home, alone. No one can vouch for me.",
+                "John: Convenient. Do you have any enemies who might want to frame you?",
+                "Michael: A few, but none who would go this far.",
+                "John: I need more than your word. We're searching your place.",
+                "Michael: You can't do that without a warrant.",
+                "John: We have one. Officers, start the search.",
+                "(Officers begin searching Michael's house while he looks on nervously.)",
+                "Officer: Detective, we found something.",
+                "John: What is it?",
+                "Officer: A hidden compartment with some of the missing people's belongings.",
+                "Michael: I swear I didn't put those there!",
+                "John: This isn't looking good for you, Michael.",
+                "Michael: Someone must have planted them! I’m being framed!",
+                "John: Tell me everything you know. Now.",
+                "Michael: I don’t know anything! Please, you have to believe me!",
+                "John: If you’re innocent, help us find the real culprit.",
+                "Michael: I’ll do whatever it takes, just don’t lock me up.",
+                "John: Fine, but you’re under surveillance. One wrong move, and you're done.",
+                "Michael: I understand. Just let me prove my innocence.",
+                "John: You better hope you can, for your sake.",
+                "(John leaves, instructing his team to keep a close eye on Michael.)",
+                "John: Keep him under 24-hour watch. I want updates on any movement.",
+                "Officer: Yes, sir.",
+                "(Michael sits down, head in his hands, as the officers leave.)",
+                "Michael: This is a nightmare... How did I get into this mess?",
+                "(Michael’s phone buzzes with a text message from an unknown number: “You’re next.”)",
+                "Michael: (reading the message) What the... This isn’t over..."
+            ]
+        },
+        "output": {
+            "facts": [
+                "John is a detective investigating disappearances.",
+                "An anonymous tip leads John to suspect Michael.",
+                "Michael denies involvement and claims he is being framed.",
+                "A search of Michael’s house reveals belongings of the missing people.",
+                "Michael insists the evidence was planted.",
+                "John places Michael under surveillance."
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Sara: This place is incredible! So much history just waiting to be discovered.",
+                "Guide: Be careful, many who have entered here never returned.",
+                "Sara: I’ve faced worse. What’s the worst that could happen?",
+                "Guide: The spirits here don’t take kindly to intruders.",
+                "Sara: Ghosts? Really? Sounds like a story to keep people away.",
+                "Guide: Believe what you want, but don’t say I didn’t warn you.",
+                "(Sara ventures deeper into the castle, flashlight in hand.)",
+                "Sara: (whispering to herself) There must be something here.",
+                "(She hears a creaking noise and turns quickly, seeing nothing.)",
+                "Sara: Just the wind, I guess.",
+                "(A cold breeze brushes past her, making her shiver.)",
+                "Sara: Okay, that’s weird.",
+                "(She finds a hidden door and pushes it open, revealing a dark room.)",
+                "Sara: What’s in here?",
+                "(She steps inside, the door slams shut behind her.)",
+                "Sara: Hey! Who did that?",
+                "(A ghostly figure appears, staring at her with hollow eyes.)",
+                "Ghost: Leave this place...",
+                "Sara: Who are you? What do you want?",
+                "Ghost: This is my home. You are not welcome.",
+                "Sara: I’m just here to explore, to learn about the past.",
+                "Ghost: The past is dead. Leave before it consumes you.",
+                "Sara: I’m not afraid of you.",
+                "Ghost: You should be. Many have perished here.",
+                "Sara: Tell me what happened. Maybe I can help.",
+                "Ghost: You cannot help the dead.",
+                "Sara: I can try. Please, let me understand.",
+                "Ghost: (sighs) The curse of this place binds us. There is no escape.",
+                "Sara: There must be a way to break the curse.",
+                "Ghost: Find the source of our torment, the artifact that holds our souls.",
+                "Sara: I’ll find it. I promise.",
+                "Ghost: Do not make promises you cannot keep.",
+                "Sara: I will keep this one. Tell me where to start.",
+                "Ghost: In the deepest chamber, buried in darkness.",
+                "Sara: I’ll go there. I won’t let you down.",
+                "Ghost: Beware the guardian. It will not let you pass easily.",
+                "Sara: I’ll be ready. Thank you for trusting me.",
+                "(The ghost fades away, leaving Sara alone in the dark room.)",
+                "Sara: (to herself) Deepest chamber... Here I come."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Sara explores an ancient, abandoned castle.",
+                "A guide warns her about the spirits haunting the castle.",
+                "Sara dismisses the warning but encounters a ghost.",
+                "The ghost warns her to leave and speaks of a curse.",
+                "Sara promises to find the artifact that holds the souls of the dead.",
+                "The ghost tells her to look in the deepest chamber and beware of the guardian."
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Emily: David, we can't just sell Grandma's bookstore. It’s her legacy.",
+                "David: I know, Emily, but we can’t run it. Neither of us has the time.",
+                "Emily: But this place meant everything to her. It’s more than just a store.",
+                "David: Sentiment won’t pay the bills. The developer is offering a good price.",
+                "Emily: Money isn’t everything. What about the community?",
+                "David: The community? Hardly anyone shops here anymore.",
+                "Emily: That’s because it needs some love. We can turn it around.",
+                "David: And how do you propose we do that?",
+                "Emily: We could renovate, host events, make it a local hub.",
+                "David: That sounds great, but where’s the money coming from?",
+                "Emily: We can apply for a small business loan. I’ve looked into it.",
+                "David: Loans mean debt. What if it doesn’t work out?",
+                "Emily: Then at least we tried. We owe it to Grandma to give it a shot.",
+                "David: I don’t know, Emily. It’s a big risk.",
+                "Emily: Life is full of risks. This one is worth taking.",
+                "David: What about our own lives and careers?",
+                "Emily: We can manage both. We just need to believe in ourselves.",
+                "David: You make it sound so easy.",
+                "Emily: I never said it would be easy, just possible.",
+                "David: Okay, let’s say we go for it. What’s the first step?",
+                "Emily: We clean up, inventory, then plan the renovations.",
+                "David: And we split the responsibilities?",
+                "Emily: Exactly. We’re a team, just like when we were kids.",
+                "David: Alright, let’s do it. For Grandma.",
+                "Emily: For Grandma.",
+                "(They shake hands and start making plans.)",
+                "Emily: First thing tomorrow, we roll up our sleeves and get to work.",
+                "David: I hope we’re doing the right thing.",
+                "Emily: We are. Grandma’s spirit will guide us."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Emily and David inherit their grandmother’s bookstore.",
+                "They debate whether to keep it open or sell it to a developer.",
+                "Emily wants to preserve their grandmother’s legacy.",
+                "David is concerned about the financial viability.",
+                "Emily suggests renovating and hosting events to revive the store.",
+                "David is hesitant but agrees to try.",
+                "They decide to apply for a small business loan and split responsibilities."
+            ]
+        }
+    }
+]

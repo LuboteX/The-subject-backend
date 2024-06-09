@@ -1,0 +1,116 @@
+[
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Mark: Lisa, I need to tell you something crazy.",
+                "Lisa: What's up? You look serious.",
+                "Mark: I think I can move things with my mind.",
+                "Lisa: Are you joking? That's not possible.",
+                "Mark: No, really. Watch this. (Mark focuses on a small rock, and it levitates)",
+                "Lisa: Oh my god! How are you doing that?",
+                "Mark: I don't know. It just started happening a few days ago.",
+                "Lisa: We need to figure this out. Maybe we can test your abilities after school.",
+                "Mark: Yeah, let's meet at the park. It's quiet there.",
+                "Lisa: Good idea. I'll bring a notebook to keep track of what you can do.",
+                "Mark: Thanks, Lisa. You're the best.",
+                "Lisa: No problem. This is exciting! I wonder what else you can do.",
+                "Mark: Me too. But I'm also scared. What if I can't control it?",
+                "Lisa: We'll figure it out together. You're not alone in this.",
+                "Mark: Alright. Let's see what happens after school.",
+                "Lisa: See you then. And don't try to lift any cars in the meantime!",
+                "Mark: (laughs) I'll try not to."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Mark discovered he has telekinetic powers.",
+                "He confided in his best friend, Lisa.",
+                "They plan to test his abilities in the park after school."
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Sir Cedric: We must be close to the dragon's lair, Princess.",
+                "Princess Elena: I can feel the heat. Be ready, Sir Cedric.",
+                "Sir Cedric: Stay behind me. I'll protect you.",
+                "Princess Elena: I can handle myself. Let's just get that sword.",
+                "Sir Cedric: There it is! The dragon!",
+                "Dragon: Who dares enter my domain?",
+                "Sir Cedric: We seek the Sword of Light, dragon. Stand aside!",
+                "Dragon: Foolish humans. The sword is mine to guard.",
+                "Princess Elena: We need it to save our kingdom! Please!",
+                "Dragon: Your pleas mean nothing to me. Prepare to face my wrath!",
+                "Sir Cedric: Get behind me, Princess! (Draws sword)",
+                "Princess Elena: We can do this, Sir Cedric. Together!",
+                "Sir Cedric: On my signal, we strike.",
+                "Dragon: (Roars and breathes fire)",
+                "Sir Cedric: Now! (Leaps forward, sword raised)",
+                "Princess Elena: (Uses her magic to shield them from the fire)",
+                "Dragon: You have courage, I'll give you that. But it won't be enough.",
+                "Sir Cedric: We won't give up! For the kingdom!",
+                "Princess Elena: For our people! (Her magic intensifies)",
+                "Dragon: (Recoils from the combined assault) Enough! Take the sword and leave me in peace!",
+                "Sir Cedric: Quickly, Princess, grab the sword!",
+                "Princess Elena: (Runs to the pedestal and retrieves the Sword of Light)",
+                "Sir Cedric: We did it! The kingdom is saved!",
+                "Princess Elena: Thank you, Sir Cedric. You were amazing.",
+                "Sir Cedric: We both were, Princess. Now, let's return home."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Sir Cedric and Princess Elena are on a quest for the Sword of Light.",
+                "They encounter and battle a dragon guarding the sword.",
+                "They successfully retrieve the sword and plan to return to save their kingdom."
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Emma: Jack, thanks for joining me on this case.",
+                "Jack: No problem, Emma. These disappearances are disturbing.",
+                "Emma: I found a lead. An abandoned warehouse on the outskirts.",
+                "Jack: Sounds like the perfect place for something shady.",
+                "Emma: Exactly. We need to be careful.",
+                "Jack: Got your back, as always. Let's head out.",
+                "Emma: (They arrive at the warehouse) This place gives me the creeps.",
+                "Jack: Look, fresh tire tracks. Someone's been here recently.",
+                "Emma: Let's move quietly. We don't want to alert anyone.",
+                "Jack: (They sneak inside) Hear that? Someone's talking.",
+                "Emma: Over there, behind those crates. (They approach cautiously)",
+                "Unknown Voice: We need to move the captives tonight.",
+                "Emma: (Whispers) Did you hear that? They have captives!",
+                "Jack: We need to act fast. I'll call for backup.",
+                "Emma: No time. We need to save them now.",
+                "Jack: Okay, let's do this. On three.",
+                "Emma: One, two, three! (They burst out from behind the crates)",
+                "Thug: Who are you?!",
+                "Emma: Police! Drop your weapons!",
+                "Thug: (Tries to flee)",
+                "Jack: Got him! (Tackles the thug)",
+                "Emma: Where are the captives?",
+                "Thug: In the basement. Please don't hurt me!",
+                "Jack: Emma, go! I'll handle him.",
+                "Emma: (Runs to the basement and finds the captives) You're safe now.",
+                "Captive: Thank you! We thought we'd never be found.",
+                "Emma: You're going to be okay. Let's get you out of here.",
+                "Jack: (Joins them) Backup's on the way. Good work, Emma.",
+                "Emma: We did it together. Let's get these people to safety.",
+                "Captive: We'll never forget this. Thank you, both of you."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Emma and Jack are investigating mysterious disappearances.",
+                "They find clues leading to an abandoned warehouse.",
+                "They discover captives and rescue them after confronting the criminals."
+            ]
+        }
+    }
+]

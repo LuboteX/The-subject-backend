@@ -1,0 +1,78 @@
+[
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Alice: Hey Bob, have you decided on the theme for Carol's birthday party?",
+                "Bob: Yeah, I was thinking about a 'Roaring Twenties' theme. What do you think?",
+                "Alice: Sounds great! We can decorate with black and gold, and everyone can come dressed in flapper dresses and suits.",
+                "Bob: Exactly! And we can have jazz music playing in the background.",
+                "Alice: Perfect! And what about the cake? Did you order it?",
+                "Bob: Yes, I ordered a custom cake shaped like a vintage car. It should be ready for pickup on the day of the party.",
+                "Alice: Awesome! Carol will love it. Oh, by the way, did you invite her crush, David?",
+                "Bob: Of course! I sent him an invitation yesterday. Hopefully, he'll show up.",
+                "Alice: Fingers crossed! This party is going to be epic.",
+                "Bob: Definitely! Carol deserves the best birthday ever."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Alice and Bob are planning a surprise birthday party for their friend Carol.",
+                "They decided on a 'Roaring Twenties' theme for the party.",
+                "The decorations will be black and gold, and guests are encouraged to dress in flapper dresses and suits.",
+                "They ordered a custom cake shaped like a vintage car for Carol.",
+                "David, Carol's crush, has been invited to the party."
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Leo: Merlin, I need your help. The kingdom is under attack by an evil sorcerer, and I don't know how to defeat him.",
+                "Merlin: Fear not, Prince Leo. We shall vanquish this sorcerer together.",
+                "Leo: But he has powers beyond anything I've ever seen. How can we possibly stand a chance?",
+                "Merlin: With courage and wisdom, young prince. But we must act swiftly. Follow me.",
+                "Leo: Where are we going?",
+                "Merlin: To the Cave of Echoes. There, we shall find the ancient sword of light, the only weapon capable of destroying the sorcerer.",
+                "Leo: Lead the way, Merlin. The fate of the kingdom rests in our hands.",
+                "Merlin: Indeed, Prince Leo. But remember, true power comes from within. Believe in yourself, and you shall succeed.",
+                "Leo: I won't let you down, Merlin. Together, we will save the kingdom."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Prince Leo seeks the help of the wise wizard Merlin to defeat an evil sorcerer threatening the kingdom.",
+                "Merlin suggests finding the ancient sword of light, the only weapon capable of destroying the sorcerer.",
+                "They embark on a journey to the Cave of Echoes to retrieve the sword.",
+                "Merlin encourages Leo to believe in himself, emphasizing the importance of courage and wisdom."
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Sarah: Officer Johnson, any updates on the missing persons case?",
+                "Johnson: Not much, Detective. It's like they vanished into thin air.",
+                "Sarah: There has to be a pattern or some clue we're missing. Have you checked the surveillance footage from the area?",
+                "Johnson: Yes, but it's all inconclusive. It's like they were never there.",
+                "Sarah: What about the rumors of an underground organization operating in the city? Could they be involved?",
+                "Johnson: It's possible. But we have no solid evidence linking them to the disappearances.",
+                "Sarah: We need to dig deeper. Get me everything you can find on this organization.",
+                "Johnson: Will do, Detective. But be careful, they're dangerous.",
+                "Sarah: I'm not afraid, Johnson. I'll get to the bottom of this, no matter what it takes.",
+                "Johnson: Just promise me you'll watch your back, Detective. We can't afford to lose you too."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Detective Sarah investigates a series of mysterious disappearances in a futuristic city.",
+                "Officer Johnson updates Sarah on the lack of progress in the case.",
+                "Sarah suspects an underground organization's involvement but lacks solid evidence.",
+                "She instructs Johnson to gather information on the organization despite its dangerous nature.",
+                "Sarah is determined to solve the case, despite the risks involved."
+            ]
+        }
+    }
+]

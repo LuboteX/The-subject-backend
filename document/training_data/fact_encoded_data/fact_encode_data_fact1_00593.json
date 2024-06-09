@@ -1,0 +1,91 @@
+[
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Tom: Lily, we need to talk. I know I've been neglecting you lately, and I'm sorry.",
+                "Lily: It's not just 'lately', Tom. It's been going on for months. I feel like I'm alone in this marriage.",
+                "Tom: I never meant to make you feel that way. Work's been crazy, but that's no excuse for ignoring you.",
+                "Lily: I understand work's important, but so is our marriage. I miss us, Tom. I miss the way things used to be.",
+                "Tom: I miss it too, Lily. I miss you. Let's work on this together, okay? I'll make more time for us.",
+                "Lily: Really? You mean it?",
+                "Tom: I do. Starting from tonight, no more late nights at the office. Just you and me.",
+                "Lily: I'd like that, Tom. I'd really like that.",
+                "(They embrace, feeling hopeful for their future together)",
+                "Tom: I promise, Lily. Things are going to be different from now on.",
+                "Lily: I believe you, Tom. I believe in us."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Tom and Lily have been drifting apart due to Tom's long working hours",
+                "Lily feels neglected and alone in their marriage",
+                "They have a heartfelt conversation and decide to prioritize their relationship",
+                "Tom promises to make more time for Lily and work on their marriage",
+                "They embrace, feeling hopeful for their future together"
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Max: Emily, there's something I've been wanting to ask you.",
+                "Emily: Oh? What is it, Max?",
+                "Max: Would you... um, would you like to grab a coffee with me sometime?",
+                "Emily: (surprised) Coffee? With you?",
+                "Max: Yeah... I mean, only if you're free and if you want to, of course.",
+                "Emily: (smiling) Sure, Max. I'd love to grab coffee with you. When were you thinking?",
+                "Max: (excitedly) Really? I mean, great! How about tomorrow afternoon?",
+                "Emily: Tomorrow sounds perfect. I'll meet you at that little café on Maple Street around 3?",
+                "Max: (grinning) Sounds like a plan! I'll see you there, Emily.",
+                "(The next day, Max and Emily meet for coffee and spend hours talking and laughing)",
+                "Max: I had a great time today, Emily.",
+                "Emily: Me too, Max. We should do this again sometime.",
+                "Max: Definitely. How about dinner next time?",
+                "Emily: (smiling) Dinner sounds lovely. It's a date, then.",
+                "(They exchange smiles, both feeling excited about the potential of their budding relationship)"
+            ]
+        },
+        "output": {
+            "facts": [
+                "Max, an aspiring artist, asks out Emily, a successful gallery owner, for coffee",
+                "Emily agrees to go out with Max, surprising him",
+                "They meet for coffee and enjoy each other's company",
+                "Max suggests dinner for their next outing, and Emily happily agrees",
+                "Both feel excited about the potential of their budding relationship"
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Aurora: Ben, you can't just keep ignoring your duties as the future king!",
+                "Benjamin: And you can't keep trying to control everything, Aurora! I have my own way of doing things.",
+                "Aurora: We have responsibilities, Ben! We can't afford to be reckless!",
+                "Benjamin: Reckless? I'm not being reckless. I'm trying to find solutions that work for everyone, not just for tradition's sake.",
+                "Aurora: Tradition is important! It's what keeps our kingdom stable and respected!",
+                "Benjamin: Stability doesn't mean stagnation, Aurora. We need to adapt to the changing times.",
+                "Aurora: (frustrated) Why can't you see that I'm just trying to protect our kingdom?",
+                "Benjamin: And why can't you see that I'm trying to make it better?",
+                "Aurora: (sighs) We're not getting anywhere with this argument, Ben.",
+                "Benjamin: (softening) Maybe not, but I still care about you, Aurora. I don't want us to be enemies.",
+                "Aurora: (softens) I care about you too, Ben. I just... I just worry about our kingdom.",
+                "Benjamin: I know, and I worry too. But maybe we can find a middle ground, together.",
+                "(They share a moment of understanding, realizing that their friendship is more important than their disagreements)",
+                "Aurora: Maybe... maybe we can. As long as we're together, we can face anything.",
+                "Benjamin: Agreed. Together, we can do anything."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Princess Aurora and Prince Benjamin argue about their responsibilities as royals",
+                "Aurora emphasizes tradition and stability, while Benjamin advocates for adaptation",
+                "They realize that their friendship is more important than their disagreements",
+                "They agree to find a middle ground and face challenges together",
+                "Both reaffirm their care and support for each other"
+            ]
+        }
+    }
+]

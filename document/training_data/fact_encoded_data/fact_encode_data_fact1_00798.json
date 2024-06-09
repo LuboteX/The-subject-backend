@@ -1,0 +1,109 @@
+[
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Alex: Jamie, can we talk? I feel like there's a lot of tension between us lately.",
+                "Jamie: Talk about what, Alex? You made it pretty clear how you feel.",
+                "Alex: I think there's been a misunderstanding. I never meant to hurt you.",
+                "Jamie: Misunderstanding? You called me a liar in front of everyone!",
+                "Alex: That wasn't what I intended. I was upset and said things I didn't mean. I'm sorry.",
+                "Jamie: Sorry doesn't cut it, Alex. You humiliated me.",
+                "Alex: I know, and I feel terrible about it. Can we try to move past this?",
+                "Jamie: Move past it? Do you have any idea how hard it was for me?",
+                "Alex: I can't undo the past, but I want to make things right. Please, Jamie.",
+                "Jamie: (sighs) What do you propose we do?",
+                "Alex: Let's start by being honest with each other. No more secrets.",
+                "Jamie: Fine, but you need to earn back my trust.",
+                "Alex: I will. I promise. Can we try to rebuild our friendship?",
+                "Jamie: We'll see. Just don't expect it to happen overnight.",
+                "Alex: I understand. Thank you for giving me another chance.",
+                "Jamie: Don't thank me yet. You have a lot to prove.",
+                "Alex: I won't let you down again. I swear.",
+                "Jamie: (nods) Let's just take it one step at a time."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Alex and Jamie are close friends who had a major fallout over a misunderstanding.",
+                "Alex calls Jamie a liar in front of everyone, leading to humiliation.",
+                "Alex apologizes and wants to make things right.",
+                "Jamie feels deeply hurt and needs time to trust Alex again.",
+                "Both agree to try rebuilding their friendship with honesty."
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Sarah: Mr. Carter, thank you for coming in. We have a few questions about the recent disappearances.",
+                "Mr. Carter: I already told you everything I know. Why am I here again?",
+                "Sarah: New evidence has come to light. We need your cooperation.",
+                "Mr. Carter: What kind of evidence? I have nothing to hide.",
+                "Sarah: We found traces of blood in your car. Care to explain?",
+                "Mr. Carter: That's impossible! I had my car cleaned recently.",
+                "Sarah: The lab results don't lie, Mr. Carter. Whose blood is it?",
+                "Mr. Carter: I don't know! Maybe it's from an animal or something.",
+                "Sarah: This is serious. We need real answers.",
+                "Mr. Carter: I swear, I don't know anything about those disappearances.",
+                "Sarah: People are missing, Mr. Carter. Their families need answers.",
+                "Mr. Carter: I didn't do anything! You're wasting your time.",
+                "Sarah: We're not wasting time. We're closing in on the truth.",
+                "Mr. Carter: You have no right to accuse me without proof.",
+                "Sarah: The evidence is mounting. Help us, and we might help you.",
+                "Mr. Carter: Help me? How?",
+                "Sarah: Tell us everything you know, and maybe we can work something out.",
+                "Mr. Carter: I have nothing to tell. I'm innocent.",
+                "Sarah: Innocent people don't have blood in their car, Mr. Carter.",
+                "Mr. Carter: You're making a big mistake.",
+                "Sarah: The only mistake would be letting a guilty man walk free."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Sarah is a detective investigating mysterious disappearances in a small town.",
+                "Mr. Carter is the prime suspect in the case.",
+                "Traces of blood were found in Mr. Carter's car.",
+                "Mr. Carter denies any involvement and claims innocence.",
+                "Sarah pressures Mr. Carter for more information, suggesting his guilt."
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Princess Lila: Sir Drake, I need your help. I discovered something terrible.",
+                "Sir Drake: What is it, Your Highness? You seem troubled.",
+                "Princess Lila: There's a plot to overthrow my father. We must act quickly.",
+                "Sir Drake: Overthrow the king? Who would dare such treachery?",
+                "Princess Lila: I overheard Lord Blackwood and his men. They plan to strike soon.",
+                "Sir Drake: This is grave news indeed. What is your plan, Princess?",
+                "Princess Lila: We need to gather loyalists and confront Blackwood before he makes his move.",
+                "Sir Drake: I will rally our best knights. We won't let this treason succeed.",
+                "Princess Lila: Thank you, Sir Drake. I knew I could count on you.",
+                "Sir Drake: For the kingdom and your family, I will do anything.",
+                "Princess Lila: We must be discreet. Blackwood has spies everywhere.",
+                "Sir Drake: Understood. I will take care of everything.",
+                "Princess Lila: Be careful. We can't afford any mistakes.",
+                "Sir Drake: I will, Your Highness. Trust me.",
+                "Princess Lila: I do, Sir Drake. More than anyone else.",
+                "Sir Drake: We will protect the king and the kingdom. Blackwood will pay for his betrayal.",
+                "Princess Lila: Let's hope we can stop him in time.",
+                "Sir Drake: We will. With you leading us, we can't fail.",
+                "Princess Lila: For the kingdom!"
+            ]
+        },
+        "output": {
+            "facts": [
+                "Princess Lila discovers a plot to overthrow her father, the king.",
+                "The conspirator is Lord Blackwood.",
+                "Princess Lila confides in Sir Drake, her loyal knight.",
+                "They plan to gather loyalists and confront Blackwood.",
+                "They need to act discreetly due to Blackwood's spies.",
+                "Sir Drake vows to protect the king and the kingdom."
+            ]
+        }
+    }
+]

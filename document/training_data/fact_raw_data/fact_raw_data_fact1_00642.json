@@ -1,0 +1,106 @@
+{
+    "generation1": {
+        "plot": "John and Mary, a couple who have been having frequent arguments lately, decide to have a serious talk to repair their relationship.",
+        "chat_history": [
+            "John: Mary, we've been arguing a lot lately, we need to talk about it.",
+            "Mary: What do you want to talk about now? I'm tired of arguing all the time.",
+            "John: Sweetheart, please don't be like this. I know we've both been a bit short-tempered lately, but that doesn't mean I don't love you anymore.",
+            "Mary: You love me? But lately, you've been so distant and cold, barely talking to me.",
+            "John: I'm sorry, I've been under a lot of work pressure lately, so I've been in a bad mood. But I promise, I really do love you.",
+            "Mary: Sorry won't cut it. You always say that, but then it's back to the same old. Even my mom suggests I break up with you.",
+            "John: Please don't listen to your mom. It's been hard for us to get together, we can't just throw it all away.",
+            "Mary: Then what do you suggest? I'm really tired, and I don't know if we can keep going like this.",
+            "John: I can't promise anything else, but I promise you, I'll change. I won't ignore you or get mad for no reason anymore.",
+            "Mary: Really? You won't deceive me again? Last time you said the same, but then you broke your promise.",
+            "John: I absolutely won't this time! Give me another chance, okay? I bought movie tickets, let's go watch a movie and relax.",
+            "Mary: Fine, you're so sweet-talking. But okay, for the sake of the movie, I'll give you another chance.",
+            "John: That's great! I knew my Mary is the kindest. Come on, the movie is about to start, I'll buy you some popcorn.",
+            "Mary: Spare me, how good can the cinema popcorn be? But for your sincerity, I'll reluctantly agree.",
+            "John: Understood! I promise to make you happy every day from now on, and never make you angry again.",
+            "Mary: Enough of your sweet talk. Come on, the movie is about to start.",
+            "Mary: Just you? Forget it, last time you almost set the kitchen on fire. I don't want to eat your cooking.",
+            "John: No no no, this time I've done my homework. I'll make you taste my culinary skills.",
+            "Mary: Fine, I'll reluctantly give it a try. But if you make another dark dish, I won't be polite.",
+            "John: Don't worry, darling, this time you'll be impressed! Let's go watch the movie first, and I'll let you taste my cooking tonight."
+        ],
+        "facts": [
+            "John and Mary have been arguing frequently lately, their relationship is in crisis",
+            "John takes the initiative to talk to Mary, trying to repair the relationship",
+            "Mary suggests breaking up, feeling tired, unsure if they can continue",
+            "John begs Mary for another chance, promises not to ignore or get angry at her anymore",
+            "John buys movie tickets to cheer up Mary, Mary reluctantly agrees to reconcile",
+            "John suggests cooking a meal for Mary to showcase his culinary skills, Mary reluctantly agrees to try"
+        ]
+    },
+    "generation2": {
+        "plot": "Alex, a nerdy programmer, has been secretly in love with Mary, the aloof goddess of the company, for a long time. One day, Alex gathers his courage to ask Mary out for dinner, and to his surprise, Mary agrees.",
+        "chat_history": [
+            "Alex: Mary, there's something I want to tell you.",
+            "Mary: What is it? Hurry up, I have things to do.",
+            "Alex: Well... I was wondering if we could... if we could go out for dinner or something...",
+            "Mary: Dinner? With you?",
+            "Alex: Yeah... I know I'm not good enough for you, but I really like you, ever since the first time I saw you...",
+            "Mary: Alright alright, spare me the cheesy lines. Just going out for dinner, it's not like I'm asking you to confess your love.",
+            "Alex: Ah? So you mean... you agree?",
+            "Mary: It's just dinner, don't get ahead of yourself. I've been too busy and tired lately, and since you're treating, I'll give you face.",
+            "Alex: That's great! Don't worry, I'll definitely treat you to a good meal. Whatever you want to eat, just order!",
+            "Mary: What to eat doesn't matter, just don't pick something too expensive. I don't want to owe you any favors.",
+            "Alex: How could that be? I'm just happy to have dinner with you. How about... we go to that newly opened Western restaurant? I heard the ambiance is nice.",
+            "Mary: Sure, I haven't been there before. But don't get the wrong idea, I'm just there to try the new dishes.",
+            "Alex: Of course, of course, you can interpret it however you like. How about this Saturday night at 7 o'clock downstairs at the company?",
+            "Mary: Alright, don't be late. I don't wait for people.",
+            "Alex: Don't worry, I'll be there early. Oh, after dinner, we could go watch a movie or something...",
+            "Mary: After dinner, I'm going home. No movie. I said, just dinner.",
+            "Alex: Ah, okay, okay, I'll go along with whatever you say. Let's discuss after dinner.",
+            "Mary: Okay, I have to go now. See you on Saturday.",
+            "Alex: Alright... see you on Saturday. Take care on your way.",
+            "Mary: I know, I'm not a three-year-old. Bye.",
+            "Alex: Bye... ah, Mary is really aloof, but it's okay, I finally managed to ask her out. I need to prepare well, can't mess this up!",
+            "Mary: Such a silly boy. Oh well, I guess I'll help him out, just one meal, that's it."
+        ],
+        "facts": [
+            "Alex is a nerdy programmer who has been secretly in love with Mary, the aloof goddess of the company",
+            "Alex gathers the courage to ask Mary out for dinner, to his surprise, Mary agrees",
+            "Mary clarifies that it's just dinner, doesn't imply anything else, doesn't want to owe any favors",
+            "The two agree to have dinner at a newly opened Western restaurant this Saturday night",
+            "Alex suggests watching a movie after dinner, but Mary refuses, insisting on just dinner",
+            "Alex is happy to finally ask Mary out, resolves to prepare well for the date"
+        ]
+    },
+    "generation3": {
+        "plot": "John and his wife Jane have been married for many years, but recently their relationship has hit a rough patch. Jane constantly complains that John doesn't care enough about her, while John feels unfairly treated. One day, they have a big argument.",
+        "chat_history": [
+            "Jane: I've had enough of you! We've been married for so many years, and you've never cared about me!",
+            "John: That's nonsense! When haven't I cared about you? I work hard every day for this family!",
+            "Jane: Work hard? All you care about is making money. Have you ever cared about my feelings?",
+            "John: I make money to give you a good life! What more do you want?",
+            "Jane: I don't need your money! I want your care and love, but you never understand!",
+            "John: I don't understand? Do you know how much I've sacrificed for this family? Don't you appreciate it at all?",
+            "Jane: Enough! I don't want to hear your excuses anymore! You've never loved me!",
+            "John: What did you say? How could you say that? Haven't I loved you enough?",
+            "Jane: Where have you loved me? I'm not important to you at all! You only care about yourself!",
+            "John: You're being unreasonable! I've tried so hard for this family, what more do you want from me?",
+            "Jane: I don't want anything from you, I just want a husband who truly loves me. But obviously, you're not him!",
+            "John: Fine, you don't want anything from me, right? Then let's get a divorce! I'm tired of your unreasonable behavior!",
+            "Jane: Divorce? Fine, let's do it! Let's see how well you'll do without me!",
+            "John: Don't regret it! I won't tolerate your tantrums anymore! I'm going to start over with my life!",
+            "Jane: Fine, I won't regret it! Without you, I can still live well!",
+            "John: Good, let's go through with the divorce! Do whatever you want from now on!",
+            "Jane: Great! I'll pack my things and leave right away! Don't ever come looking for me again!",
+            "John: Do I need to look for you? Leave! I don't need you!",
+            "Jane: You're the one who needs to leave! Get out now!",
+            "John: Fine! This house is yours! I'm leaving, and I won't ever come back!",
+            "Jane: Leave! I never want to see you again! Sob... idiot...",
+            "John: You won't regret it... goodbye, my ex-wife!"
+        ],
+        "facts": [
+            "John and his wife Jane have been married for many years, but recently their relationship has hit a rough patch",
+            "Jane complains that John doesn't care enough about her, always prioritizes making money",
+            "John feels he has sacrificed a lot for the family, feels unfairly treated",
+            "The two have a big argument, accusing each other of not loving enough",
+            "John suggests divorce, Jane agrees",
+            "Jane asks John to leave immediately, John leaves angrily, vowing not to return",
+            "The two ultimately decide to divorce, ending their marriage"
+        ]
+    }
+}

@@ -1,0 +1,93 @@
+[
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Tom: Hey Sarah, can we talk for a minute?",
+                "Sarah: Sure, Tom. What's up?",
+                "Tom: (nervously) Well, there's something I've been wanting to tell you for a while.",
+                "Sarah: (curiously) Oh? What is it?",
+                "Tom: (takes a deep breath) I... I really like you, Sarah. I mean, more than just a friend.",
+                "Sarah: (surprised) Tom, I don't know what to say...",
+                "Tom: I understand if you don't feel the same way. I just couldn't keep it to myself any longer.",
+                "Sarah: (pauses) Tom, you're one of my best friends. This is a lot to take in.",
+                "Tom: I know, and I don't want to pressure you. I just needed you to know how I feel.",
+                "Sarah: (thoughtfully) I appreciate your honesty. I really do. But I need some time to think about this.",
+                "Tom: Of course, take all the time you need. Our friendship means a lot to me, and I don't want to lose that.",
+                "Sarah: (smiles) Thanks, Tom. You're really important to me too. Let's just take things one step at a time, okay?",
+                "Tom: (relieved) Okay, that sounds good. I'm glad we talked about this.",
+                "Sarah: Me too. Let's head back to the dorms. We can talk more tomorrow."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Tom and Sarah are college students and best friends.",
+                "Tom has developed romantic feelings for Sarah.",
+                "Tom confesses his feelings to Sarah after a study session.",
+                "Sarah is surprised and needs time to think about it.",
+                "They agree to take things one step at a time to preserve their friendship."
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Alex: Elena, you've been around here for a while. You must know something about these disappearances.",
+                "Elena: (smirking) Detective, you're barking up the wrong tree. I don't know anything.",
+                "Alex: (leaning in) Come on, Elena. People are scared. If you know something, you need to tell me.",
+                "Elena: (evasively) Even if I did know something, why would I tell you?",
+                "Alex: Because it's the right thing to do. These are people's lives we're talking about.",
+                "Elena: (sighs) You think I don't care? I've seen what happens to those who get too close to the truth.",
+                "Alex: What do you mean? Are you saying you know what's going on?",
+                "Elena: (looks away) Maybe I do. But knowing too much can be dangerous.",
+                "Alex: (determined) I'm willing to take that risk. Just tell me what you know.",
+                "Elena: (whispers) There's a group... they're behind it all. But I can't say more. They'll come for me if I do.",
+                "Alex: A group? Who are they?",
+                "Elena: (shaking her head) I can't. That's all I can tell you. Be careful, Detective.",
+                "Alex: Elena, wait! You can't just leave it at that!",
+                "Elena: (stands up) I have to go. Watch your back, Alex. They're always watching.",
+                "Alex: (frustrated) Damn it. I need more than that."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Detective Alex is investigating disappearances in a small town.",
+                "Elena is a mysterious woman who seems to know about the case.",
+                "Elena is evasive and reluctant to share information.",
+                "Elena hints at a group being behind the disappearances.",
+                "Elena warns Alex that knowing too much is dangerous and leaves."
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Mira: Zorak, we come in peace. We mean no harm to your people.",
+                "Zorak: (skeptical) Humans have said that before. Why should we trust you?",
+                "Mira: (calmly) We're explorers, not conquerors. We just want to learn about your planet and share knowledge.",
+                "Zorak: (angrily) Your kind has brought destruction to other worlds. How do we know you won't do the same here?",
+                "Mira: (pleading) We are different. Give us a chance to prove it. We can help each other.",
+                "Zorak: (pauses) What kind of help can you offer us?",
+                "Mira: We have advanced technology that can improve your infrastructure and medicine.",
+                "Zorak: (considering) And what do you want in return?",
+                "Mira: Just the opportunity to study your planet and its ecosystems. We promise to respect your ways.",
+                "Zorak: (sternly) If you betray us, there will be consequences. Do you understand?",
+                "Mira: (nodding) Yes, we understand. You have my word.",
+                "Zorak: (reluctantly) Very well. You may proceed with your mission, but we will be watching you closely.",
+                "Mira: Thank you, Zorak. We won't let you down.",
+                "Zorak: (nodding) See that you don't. Now go. We will be in contact."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Captain Mira and her crew are on a space mission to explore a new planet.",
+                "They encounter resistance from an alien race led by Zorak.",
+                "Mira negotiates with Zorak to ensure their mission's safety.",
+                "Mira offers advanced technology in exchange for the opportunity to study the planet.",
+                "Zorak reluctantly agrees but warns of consequences if humans betray their trust."
+            ]
+        }
+    }
+]

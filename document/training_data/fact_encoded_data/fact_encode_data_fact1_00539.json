@@ -1,0 +1,104 @@
+[
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Jack: Emily, I don't think this approach is going to work. We need to rethink our strategy.",
+                "Emily: What? Are you serious? We've been working on this for weeks, and now you want to change everything?",
+                "Jack: I know, but look at the data. It's not aligning with our projections.",
+                "Emily: The data? We've barely analyzed it! You're jumping to conclusions.",
+                "Jack: I'm not jumping to conclusions. I'm trying to be realistic.",
+                "Emily: (sighs) Fine, what do you propose we do?",
+                "Jack: We need to go back to the drawing board and reconsider our main algorithm.",
+                "Emily: That's insane! We'll never meet the deadline if we start over now.",
+                "Jack: Would you rather submit a flawed project?",
+                "Emily: No, but there must be a middle ground.",
+                "Jack: I'm open to suggestions. What do you think?",
+                "Emily: (pauses) Maybe we can tweak the existing model instead of a complete overhaul.",
+                "Jack: Okay, let's focus on the critical parts that need adjustment.",
+                "Emily: Fine, but we need to work around the clock to make this happen.",
+                "Jack: Agreed. I'll take care of the data analysis, and you can refine the algorithm.",
+                "Emily: Deal. But we need to communicate better. No more last-minute surprises.",
+                "Jack: Absolutely. Let's keep each other in the loop from now on.",
+                "Emily: (smiles) Alright, let's get back to work and make this project a success.",
+                "Jack: Let's do it. We're in this together."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Jack and Emily are working on a crucial project with a tight deadline.",
+                "They have a heated argument about the project's direction.",
+                "Jack suggests rethinking their strategy due to misaligned data.",
+                "Emily is frustrated but agrees to tweak the existing model.",
+                "They decide to work around the clock and improve their communication."
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Prince Aric: Elara, we must act swiftly. The king's soldiers are tightening their grip on the villages.",
+                "Elara: I know, Aric. But we need more allies before we can strike.",
+                "Prince Aric: Our people are suffering. We can't wait much longer.",
+                "Elara: Patience is key. We need to gather the other lords and their armies.",
+                "Prince Aric: (paces) How do we convince them to join our cause?",
+                "Elara: Leave that to me. My magic can help sway their loyalty.",
+                "Prince Aric: (nods) I trust you, Elara. But what about the king's spies?",
+                "Elara: I've already cast spells to cloak our movements. They won't find us.",
+                "Prince Aric: Good. We also need a plan to infiltrate the castle.",
+                "Elara: I've been working on that. There's a hidden passageway we can use.",
+                "Prince Aric: Excellent. How soon can we move?",
+                "Elara: Give me a week to rally the lords and prepare the spells.",
+                "Prince Aric: (sighs) Very well. I will gather our warriors and ready them for battle.",
+                "Elara: Be cautious, Aric. The king's men are everywhere.",
+                "Prince Aric: I will. And Elara, thank you for standing by me.",
+                "Elara: We share the same goal, Aric. Freedom for our people.",
+                "Prince Aric: (smiles) Together, we will bring down King Thorne."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Prince Aric and Elara are planning a rebellion against King Thorne.",
+                "They need more allies and decide to gather the other lords.",
+                "Elara will use her magic to sway the lords' loyalty.",
+                "They plan to infiltrate the castle through a hidden passageway.",
+                "They agree to prepare for the rebellion within a week."
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Detective Morgan: Davis, any new leads on the missing persons cases?",
+                "Officer Davis: I've found a pattern. All victims were last seen near the old factory.",
+                "Detective Morgan: The old factory? That place has been abandoned for years.",
+                "Officer Davis: Exactly. It's the perfect place for someone to hide their tracks.",
+                "Detective Morgan: We need to search the factory. Have we secured a warrant?",
+                "Officer Davis: Yes, it just came through. We can go tonight.",
+                "Detective Morgan: Good work. Make sure we have backup. This could be dangerous.",
+                "Officer Davis: Already arranged. The SWAT team will meet us there.",
+                "Detective Morgan: (nods) Excellent. Let's review the plan.",
+                "Officer Davis: We'll approach from the north entrance. It's less exposed.",
+                "Detective Morgan: Agreed. We need to be stealthy. No lights until we're inside.",
+                "Officer Davis: Understood. Once inside, we split into teams and sweep the area.",
+                "Detective Morgan: Keep your radios on and report anything suspicious immediately.",
+                "Officer Davis: Got it. Do you think we'll find the missing people there?",
+                "Detective Morgan: I hope so. But we need to be prepared for anything.",
+                "Officer Davis: Right. I'll brief the team on the way.",
+                "Detective Morgan: Let's bring these people home, Davis.",
+                "Officer Davis: We will, Detective. Let's move out."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Detective Morgan and Officer Davis are investigating mysterious disappearances.",
+                "All victims were last seen near an old factory.",
+                "They secure a warrant to search the factory.",
+                "The SWAT team will provide backup during the search.",
+                "They plan to approach from the north entrance and sweep the area in teams."
+            ]
+        }
+    }
+]

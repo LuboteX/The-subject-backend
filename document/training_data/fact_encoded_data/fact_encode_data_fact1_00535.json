@@ -1,0 +1,101 @@
+[
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Amy: Hey John, can I talk to you for a moment?",
+                "John: Sure, what's up?",
+                "Amy: (takes a deep breath) I've been wanting to tell you something for a while now...",
+                "John: What is it?",
+                "Amy: I... I really like you, John. More than just as a friend.",
+                "John: (surprised) Oh... I didn't expect that.",
+                "Amy: I understand if you don't feel the same way. I just needed to get it off my chest.",
+                "John: No, it's not that. I just... I never thought you'd feel the same way about me.",
+                "Amy: Really? So, you're not freaked out?",
+                "John: No, not at all. In fact, I've had feelings for you too, Amy.",
+                "Amy: (tears up) Seriously? This is like a dream come true!",
+                "John: Yeah, I've been wanting to tell you for ages, but I was afraid of ruining our friendship.",
+                "Amy: (laughs) Well, it looks like we're on the same page then.",
+                "John: Definitely. So, what do we do now?",
+                "Amy: (smiles) How about we go out for dinner tonight? Just the two of us.",
+                "John: I'd love that. It'll be like our first official date.",
+                "Amy: (blushes) Yeah, I can't wait.",
+                "John: Me neither, Amy. Me neither."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Amy finally confesses her feelings to John after years of keeping them secret",
+                "John admits that he also has feelings for Amy, and they decide to go on their first date",
+                "Both Amy and John are excited about the prospect of starting a romantic relationship",
+                "Their friendship has now evolved into something more meaningful"
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Alex: Hey, are you alone?",
+                "Sarah: Yeah, just trying to find some food. You?",
+                "Alex: Same here. It's been tough since the outbreak.",
+                "Sarah: Tell me about it. I lost everyone.",
+                "Alex: Me too. But hey, at least we found each other.",
+                "Sarah: Yeah, I guess that's something.",
+                "Alex: Listen, I know a place not too far from here. It's an old bunker. We could take shelter there.",
+                "Sarah: Are you sure it's safe?",
+                "Alex: As safe as it gets in this world. Plus, we'll be better off together.",
+                "Sarah: Alright, let's go.",
+                "Alex: (leads the way through the desolate streets)",
+                "Sarah: How did you survive out here for so long?",
+                "Alex: Luck, mostly. And knowing when to run.",
+                "Sarah: You seem like you know what you're doing.",
+                "Alex: I've had to learn fast. It's kill or be killed out here.",
+                "Sarah: (nods) I hear you. It's a dog-eat-dog world now.",
+                "Alex: Exactly. But with you by my side, I feel like we can make it.",
+                "Sarah: (smiles) Yeah, me too."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Alex and Sarah, both survivors of an apocalypse, meet in a deserted city",
+                "They decide to team up and search for a safe haven together",
+                "Alex suggests they take shelter in an old bunker he knows of",
+                "Sarah expresses concern about safety, but ultimately agrees to go with Alex",
+                "As they journey together, they bond over their shared experiences and the harsh realities of their new world"
+            ]
+        }
+    },
+    {
+        "instruction": "你需要总结出chat_history里的每一条事实信息（fact），越精简越好。按照模板：{\"facts\": [\"\",]} 输出内容。",
+        "input": {
+            "chat_history": [
+                "Lily (disguised as a maid): Ugh, these dishes never end.",
+                "William (disguised as a stable boy): Tell me about it. I've been shoveling horse dung all morning.",
+                "Lily: (laughs) At least you don't have to deal with the royal court's drama.",
+                "William: True, but I'd rather be dealing with that than this stench.",
+                "Lily: Fair point. So, why did you agree to switch with me today?",
+                "William: I wanted to see what life was like outside the palace walls. Plus, I've always been curious about you.",
+                "Lily: Really? I've heard stories about you too, you know.",
+                "William: (grins) Hopefully not all bad.",
+                "Lily: (smiles) No, mostly good. But enough about that. Let's just enjoy being ordinary for a day.",
+                "William: Agreed. So, what's next on our list of commoner activities?",
+                "Lily: How about we go to the market and haggle for some goods?",
+                "William: Sounds like fun. Lead the way, Lily.",
+                "Lily: (leads William through the bustling marketplace)",
+                "William: This place is incredible. So much life and energy.",
+                "Lily: See? Being a commoner isn't so bad after all.",
+                "William: Not when I'm with you, Lily."
+            ]
+        },
+        "output": {
+            "facts": [
+                "Princess Lily and Prince William decide to switch places with their servants for a day",
+                "Lily experiences life as a maid, while William takes on the role of a stable boy",
+                "They bond over their shared desire to experience life outside the palace",
+                "During their day as commoners, they visit the market and enjoy each other's company",
+                "Their adventure allows them to see each other in a new light and strengthens their bond"
+            ]
+        }
+    }
+]
